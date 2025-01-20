@@ -1,0 +1,9 @@
+.articulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 5rem 0;
+    
+    
+
+}

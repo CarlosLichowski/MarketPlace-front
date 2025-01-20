@@ -1,0 +1,88 @@
+.logInContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #d4d4d4;
+    background-color: #1e1e1e;
+    width: 25vw;
+    height: 28vw;
+    margin: 2% 10%;
+}
+
+.unregistered{
+    color: #d4d4d4;
+}
+
+.btnRememberSeccion{
+    color: #d4d4d4;
+ background: none;
+ border: none;
+ box-shadow: none;
+}
+
+.btnForgotPassword{
+    color: #0b9f91;
+ background: none;
+ border: none;
+ box-shadow: none;
+}
+
+
+.btnRegister{
+    color: #0b9f91;
+     background: none;
+     border: none;
+     box-shadow: none;
+}
+
+.logInh1{
+    margin: 0;
+    padding: .25rem;
+    text-align: center;
+    background-color: #2d2d2d;
+    width: 100%;
+}
+
+.logInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputContraseña{
+    margin: .625rem 0;
+    background:none;
+    border: 2px solid #d4d4d4;
+    border-radius: 20px;
+}
+
+.inputCorreo{
+    margin:  .625rem 0; 
+    background:none;
+    border: 2px solid #d4d4d4;
+    border-radius: 20px;
+}
+
+.btnsReminderForgot{
+    display: flex;
+
+}
+
+.LogInbtn{
+    margin: 20px 0;
+    background-color: #03dac6;
+    padding: 10px;
+    border: 2px solid #03dac6;
+    border-radius: 20px;
+}

@@ -1,0 +1,50 @@
+.Searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #151420;
+    color: #d4d4d4;
+    padding: 0 3rem;
+    font-family: "IBM Plex Sans", sans-serif;
+font-weight: 400;
+font-style: normal; 
+}
+
+.h1{
+    color: #dcdbe1;
+    font-family: "IBM Plex Sans", sans-serif;
+font-weight: 600;
+font-style: normal; 
+}
+
+.h1 a {
+    text-decoration: none;
+    color: #dcdbe1;
+    margin: 0 20px 0 0;
+}
+
+
+
+.btn {
+    background-color: #6545e3;
+    border: 2px solid #6545e3;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #dcdbe1;
+    
+}
+
+.Searchinput{
+    width: 27rem;
+    height: 2rem;
+    border-radius: 25px;
+    background-color: #2d2d2d;
+    padding: 15px;
+}
+
+.Searchinput:hover{
+    width: 28rem;
+    background-color: #474747;
+    transition: 0.2s ease-in-out;
+}
+

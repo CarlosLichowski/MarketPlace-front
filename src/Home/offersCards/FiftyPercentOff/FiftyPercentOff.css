@@ -1,0 +1,56 @@
+.oferta1{
+    border-radius: 10px;
+    min-height: 200px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: #151420;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oferta1 {
+    grid-area: oferta1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+
+
+  }
+
+  .oferta1 h2{
+    color: #BB86FC;  
+    font-size: 62px; 
+    font-family: "IBM Plex Sans", sans-serif;
+font-weight: 600;
+font-style: normal; 
+   }
+
+   .oferta1 h3{
+    color: #03DAC6;  
+    font-size: 26px; 
+   }
+
+   .oferta1Left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+  }
+  
+  .oferta1righ{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    color: #f4f4f4;
+    background-color: #FF0266;
+    border-radius: 15px;
+    padding: 0 1.5rem;
+    
+  }

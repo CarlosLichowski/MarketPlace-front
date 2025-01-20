@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #191826;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root{
+ color: #f4f4f4;
+width: 80%;
+font-size: 1.25rem;
+}

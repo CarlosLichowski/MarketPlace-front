@@ -1,0 +1,45 @@
+.ProductDetailContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductDetail {
+    background-color: #151420;
+    width: 1161px;
+    height: 1280px;
+display: flex;
+align-items: start;
+justify-content: center;
+}
+
+
+.MoreImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProductDetailImages{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 350px;
+    
+}
+
+.img1{
+    width: 100%;
+}
+
+.img2, .img3, .img4{
+    width: 35%;
+}
+
+
+
+.Rates {
+    width: 1161px;
+    height: 463px;
+}

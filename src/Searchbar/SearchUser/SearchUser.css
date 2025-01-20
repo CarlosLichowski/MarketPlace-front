@@ -1,0 +1,32 @@
+.SearchUser{
+    display: flex;
+}
+
+.SearchShopContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    
+}
+
+
+
+.SearchUserIcon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 12rem;
+
+}
+
+.SearchUserIcon a {
+    text-decoration: none;
+    color: #d4d4d4;
+}
+
+.SearchUserIcon:hover{
+    border-bottom: 1px solid #d4d4d4;
+    transition: 0.2s ease-in-out;
+}
+
