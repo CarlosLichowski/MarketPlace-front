@@ -29,7 +29,7 @@ const ProductCard = () => {
                 <button className='CardBuyBtn'>comprar</button>
                 <div className='ProductCardCart'>
 
-                <ShoppingCartIcon  fontSize="medium"  />
+                <ShoppingCartIcon  fontSize="small"  />
                 <h3>
                   +
                   </h3>

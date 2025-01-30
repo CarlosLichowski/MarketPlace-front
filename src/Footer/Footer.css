@@ -1,0 +1,11 @@
+.FooterContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    background-color: #151420;
+    border: 2px solid #222137;
+border-radius: 10px;
+}

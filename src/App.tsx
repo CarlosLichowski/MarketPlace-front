@@ -9,16 +9,18 @@ import Ropa from './Pages/Ropa/Ropa'
 import Deportes from './Pages/Deportes/Deportes'
 import Login from './LogIn/Login'
 import ProductDetail from './Products/ProductDetail/ProductDetail'
+import ShoppingCard from './ShoppingCart/ShoppingCart'
+import Footer from './Footer/Footer'
 
 function App() {
 
   return (
     <>
       <Searchbar/>
-      <Navbar/>
       
       
     
+<Navbar/>
      <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>
@@ -27,9 +29,12 @@ function App() {
         <Route path='/ropa' element={<Ropa/>}/>
         <Route path='/deportes' element={<Deportes/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/ShoppingCard' element={<ShoppingCard/>}/>
         <Route path='/home/productdetail' element={<ProductDetail/>}/>
     </Routes> 
     
+
+    <Footer/>
     </>
 
 

@@ -4,10 +4,17 @@
     justify-content: space-between;
     background-color: #151420;
     color: #d4d4d4;
-    padding: 0 3rem;
+    padding: 0.7rem 3rem;
     font-family: "IBM Plex Sans", sans-serif;
 font-weight: 400;
 font-style: normal; 
+background-color: #151420   ;
+border: 2px solid #222137   ;
+border-radius: 10px;
+@media (max-width: 1300px){
+    padding:  0.7rem 1rem;
+
+}
 }
 
 .h1{
@@ -15,12 +22,16 @@ font-style: normal;
     font-family: "IBM Plex Sans", sans-serif;
 font-weight: 600;
 font-style: normal; 
+@media (max-width: 1300px){
+    font-size: 1.2rem;
+}
 }
 
 .h1 a {
     text-decoration: none;
     color: #dcdbe1;
     margin: 0 20px 0 0;
+
 }
 
 
@@ -31,7 +42,9 @@ font-style: normal;
     padding: 10px 20px;
     border-radius: 20px;
     color: #dcdbe1;
-    
+    @media (max-width: 1300px){
+        font-size: 0.8rem;
+    }
 }
 
 .Searchinput{
@@ -40,6 +53,12 @@ font-style: normal;
     border-radius: 25px;
     background-color: #2d2d2d;
     padding: 15px;
+    @media (max-width: 1300px){
+        padding: 8px;
+        width: 13rem;
+        height: 1.8rem;
+        border-radius: 15px;
+    }
 }
 
 .Searchinput:hover{

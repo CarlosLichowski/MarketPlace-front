@@ -9,7 +9,9 @@ const SearchUser = () => {
 
     <div className='SearchShopContainer'>
     <button className='btn'>Vender</button>
+    <Link to={'ShoppingCard'}>
     <ShoppingCartIcon />
+    </Link>
     <Notifications/>
     </div>
 
