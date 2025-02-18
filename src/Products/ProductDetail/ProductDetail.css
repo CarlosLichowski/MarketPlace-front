@@ -1,22 +1,18 @@
-.ProductDetailContainer {
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 0 25%;
-height: 85vh;
-  }
+
   
 
   .ProductDetail{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 2rem;
     align-items: center;
     justify-content: center; 
     width: 100%;
-    
+    height: 80vh;
     text-align: center; /* Center the main-image */
+    margin: 0 0 5rem 0;
+    padding:  20px 0;
   }
 
   
@@ -30,7 +26,6 @@ height: 85vh;
 .MoreImages {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
     gap: 1rem;
     align-items: center; /* Centra verticalmente las imágenes dentro de cada columna */
     justify-content: center; /* Centra horizontalmente las imágenes dentro de cada columna */
@@ -50,8 +45,116 @@ height: 85vh;
     height: auto;
   }
   
-  .Rates {
-    grid-column: 1; /* Ahora también ocupa la primera columna */
-    width: 1161px;
-    height: 463px;
+  .ProductDetailColumn2{
+    padding: 8rem;
   }
+
+
+.ProductDetailStock{
+  color: rgb(137, 155, 255);
+  border-top: 2px solid rgb(137, 155, 255);
+  border-bottom: 2px solid rgb(137, 155, 255);
+  
+}
+
+.ProductDetailPrice{
+  color: rgb(137, 155, 255);
+}
+
+.sizeBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.size{
+  border: 2px solid rgb(137, 155, 255);
+  border-radius: 10px;
+  width: 2rem;
+  margin:0.5rem;
+}
+
+.ProductDetailColor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ColorsBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.redColor, .greenColor, .blueColor , .whiteColor{
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin: 0.5rem ;
+}
+
+.redColor{
+  background-color: red;
+  border: 2px solid red;
+}
+
+.greenColor{
+  background-color: green;
+  border: 2px solid green;
+}
+
+.blueColor{
+  background-color: blue;
+  border: 2px solid blue;
+}
+
+.whiteColor{
+  background-color: white;
+  border: 2px solid white;
+}
+
+.ProductDetailDescription{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductDetailRates{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductDetailName .ProductDetailRates, .ProductDetailColor, .ProductDetailDescription , .ProductDetailPrice , .ProductDetailRates, .ProductDetailStock{
+  margin: 1rem 0;
+}
+
+.ProductDetailRates  h3, .ProductDetailColor  h3, .ProductDetailDescription  h3, .ProductDetailPrice  h3, .ProductDetailRates  h3, .ProductDetailStock h3{
+color: rgb(137, 155, 255);
+margin: 0.2rem 0;
+}
+
+.buyBox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buybtn{
+  background-color: green;
+  color: white;
+  padding: 4px;
+}
+
+.cartbtn{
+  background-color: rgb(0, 55, 128);
+  color: white;
+  padding: 4px;
+}
+
+
