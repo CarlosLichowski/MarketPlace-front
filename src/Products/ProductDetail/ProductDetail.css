@@ -1,7 +1,4 @@
-
-  
-
-  .ProductDetail{
+.ProductDetail{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -163,7 +160,6 @@ margin: 0.2rem 0;
   font-size: 1.25rem;
   background-color: #6545e3;
   border: 2px solid #222137;
-
   color: #f4f4f4;
   border-radius: 15px;
   width: 7rem;
@@ -174,31 +170,9 @@ margin: 0.2rem 0;
   font-size: 1.25rem;
   background-color: transparent;
   border: 2px solid #222137;
-
   color: #ffffff;
   border-radius: 15px;
   width: 7rem;
-  height: 3rem;
-
-
-  
+  height: 3rem; 
 }
 
-/* display: flex;
-width: 3rem;
-height: 3rem;
-margin: 0 10px;
-padding: 0 10px;
-align-items: center;
-justify-content: space-around;
-border: 1px solid #6545e34b;
-border-radius: 20px; 
-color: #f4f4f4;
-@media (max-width: 1300px){
-    width: 2.5rem;
-    height: 3rem;
-    padding: 0;
-    border-radius: 10px;
-    flex-direction: column;
-}
-} */
