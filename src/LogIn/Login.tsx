@@ -8,9 +8,9 @@ const Login = () => {
             <h1 className='logInh1'>Iniciar Sesión</h1>
 
                 <div className='logInput'>
-                    <input className=' inputContraseña' placeholder="Correo electrónico"></input>
+                    <input className='inputCorreo' placeholder="Correo electrónico"></input>
 
-                    <input className=' inputCorreo' placeholder="Contraseña"></input>
+                    <input className='inputContraseña' placeholder="Contraseña"></input>
 
                     <div className='btnsReminderForgot'>
 

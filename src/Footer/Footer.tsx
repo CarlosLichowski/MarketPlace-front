@@ -1,14 +1,16 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 function Footer(){
     return(
-        <div className="FooterContainer">
-                <p>©2024 MarketPlace</p>
-                <p>Contacto</p>
-                <p>Sobre Nosotros</p>
-                <p>Privacidad</p>
-                <p>Convierte en vendedor</p>
-        </div>
+        <ul className="FooterContainer">
+            
+                <li className='link'><Link to={"electronica"}> ©2024 MarketPlace</Link></li>
+                <li className='link'><Link to={"electronica"}> Contacto</Link></li>
+                <li className='link'><Link to={"electronica"}> Sobre Nosotros</Link></li>
+                <li className='link'><Link to={"electronica"}> Privacidad</Link></li>
+                <li className='link'><Link to={"electronica"}> Convierte en vendedor</Link></li>
+        </ul>
     )
 }
 

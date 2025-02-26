@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 80vh;
+
 }
 
 .logIn{
@@ -12,10 +13,14 @@
     align-items: center;
     justify-content: space-between;
     color: #d4d4d4;
-    background-color: #1e1e1e;
-    width: 100%;
-    height: 70vh;
+    width: 35%;
+    height: 88%;
+    padding: 5rem 0 ;
     margin: 2% 10%;
+    background: rgb(39, 43, 59);
+    background: linear-gradient(149deg, rgb(41, 44, 54) 1%, rgb(38, 42, 54) 9%, rgb(31, 33, 44) 18%, rgb(30, 30, 41) 36%, rgb(22, 25, 37) 74%, rgb(21, 22, 31) 96%);
+    border: #222137 2px solid;
+    border-radius: 10px;
 }
 
 .unregistered{
@@ -48,7 +53,7 @@
     margin: 0;
     padding: .25rem;
     text-align: center;
-    background-color: #2d2d2d;
+   
     width: 100%;
 }
 
@@ -57,14 +62,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px 10px;
     
 }
 
 .inputContraseña{
-    margin: .625rem 0;
+    margin: .625rem 0 2rem 0;
     background:none;
     border: 2px solid #d4d4d4;
     border-radius: 20px;
+    padding: 10px;
+    
 }
 
 .inputCorreo{
@@ -72,6 +80,8 @@
     background:none;
     border: 2px solid #d4d4d4;
     border-radius: 20px;
+    padding: 10px;
+    
 }
 
 .btnsReminderForgot{

@@ -1,5 +1,6 @@
 import './ProductDetail.css'
 import remera from '../../assets/remera3.png'
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const ProductDetail = () => {
   return (
@@ -81,8 +82,8 @@ const ProductDetail = () => {
             </div>
             
             <div className='buyBox'>
-              <button className='buybtn'>Comprar</button>
-              <button className='cartbtn'>Agregar al carrito</button>
+              <button className='DetailCardBuyBtn'>Comprar</button>
+              <button className='AddCartBtn'><ShoppingCartIcon  fontSize="medium"  />+</button>              
             </div>
               </div>
 

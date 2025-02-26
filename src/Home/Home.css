@@ -12,7 +12,7 @@
     background-image: url('../assets/sneakers.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; /* Ensures image is centered */
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,10 +22,25 @@
     /* Force full-width rendering */
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
-    width: 100vw; /* Override parent width constraints */
+    width: 100vw; 
     @media (max-width: 1400px){
         font-size: 1.5rem;
     
     }
+
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    
+}
+
+.banner:hover{
+     
+
+    box-shadow: 
+    inset 2px 2px 22px rgba(59,45,110,0.75),
+    inset -2px -2px 22px rgba(59,45,110,0.75),
+    2px 2px 22px rgba(59,45,110,0.75),
+    -2px -2px 22px rgba(59,45,110,0.75);
+    
+
 }
 

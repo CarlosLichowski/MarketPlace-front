@@ -1,13 +1,11 @@
-a{
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
+
+/* 
+z-index: -1; make the content unclicleable
+*/
 .CardContainer{
-    width: 13.625rem;
-    height: 20.9375rem;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
     font-weight: bold;
     position: relative;
@@ -24,15 +22,34 @@ background: radial-gradient(circle, #151420 49%, #191826 96%);
     justify-content: space-between;
     flex-direction: column;
     text-decoration: none;
-    z-index: -1;
+    z-index: 1;
+    cursor: pointer;
+  
+
 }
+
+.CardContainer:hover{
+    background: rgb(42,33,75);
+    background: linear-gradient(90deg, rgba(42,33,75,1) 0%, rgba(60,48,106,1) 25%, rgba(78,64,139,1) 50%, rgba(60,48,106,1) 75%, rgba(42,33,75,1) 100%);
+    box-shadow: 2px 2px 8px 5px rgb(59,45,110);
+    box-shadow: -2px -2px -8px -5px rgb(59,45,110);
+    
+
+}
+
+
+
+
 
 .CardContainer h1{
 font-family: "IBM Plex Sans", sans-serif;
 font-weight: 600;
 font-style: normal; 
 font-size: 1.3rem;
+margin: .625rem 0;
 }
+
+
 
 /* font-family: "IBM Plex Sans", sans-serif;
 font-weight: 600;
@@ -43,6 +60,7 @@ font-style: normal; */
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: .625rem 0;
 }
 
 
@@ -54,7 +72,7 @@ font-style: normal; */
     justify-content: space-between;
     font-size: 1rem;
     margin:  30px 0;
-    padding: 30px 10px;
+    padding: 15px 5px;
     @media (max-width: 1300px){
 margin: 10px 0;
 padding: 10px 5px;
@@ -67,13 +85,18 @@ padding: 10px 5px;
     align-items: center;
     justify-content: center;
     margin: 0 0 20px 0;
+    
 }
 
 .CardContentImg img{
 width: 60%;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.4s ease-in-out;
 }
 
+.CardContentImg img:hover{
+    
+    transform: scale(1.1) translateY(-10px);
+}
 
 
 .ProductCardBtns{
@@ -126,3 +149,48 @@ width: 60%;
         font-size: 0.8px;
     }
 }
+
+
+.AddToCartBtn {
+    height: 60px;
+    width: 96%;
+    background-color: #132233;
+    border: 2px solid rgb(182, 128, 128);
+    color: #eee;
+    transition: .6s;
+    font-size: 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    overflow: hidden;
+  }
+  
+  .AddToCartBtn span {
+    transform: translateX(10px);
+    transition: .5s;
+  }
+  
+  .AddToCartBtn svg {
+    transform: translateX(-300px);
+    transition: .6s;
+    z-index: 3;
+    height: 20px;
+  }
+  
+  .AddToCartBtn:hover {
+    width: 100%;
+    background-color: #6545e3;
+    box-shadow: 6px 6px 76px #a8a8a841,-20px -20px 76px #4e408b;
+    border: 2px solid rgb(57, 48, 68);
+  }
+  
+  .AddToCartBtn:hover svg {
+    transform: translateX(-5px);
+  }
+  
+  .AddToCartBtn:hover span {
+    transform: translateY(70px);
+    font-size: .1rem;
+  }

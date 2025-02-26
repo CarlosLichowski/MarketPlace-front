@@ -1,8 +1,10 @@
 .articulos{
+    margin: 7rem 0;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 25px;
-    margin: 5rem 0;
+    gap: 4rem;
+    row-gap: 4rem;
     text-align: center;    
     @media (max-width: 1300px){
         grid-template-columns: 1fr 1fr 1fr;
